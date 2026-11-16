@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Avaliação Workshop de IA Ferroport</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap">
-<style>
-body{margin:0}
+return {
+  access_key: "f0f6c8f1-ece8-4a20-ab60-0665da32b9d9",
+  subject: "Nova Avaliação Workshop IA Ferroport",
+  nome: ...,
+  area: ...,
+  cargo: ...,
+  decisao: ...,
+  comentario: ...,
+  nota: ...
+}
 img{max-width:100%}
 [hidden]{display:none!important}
 /* Layout: white brand band with both logos, a single 760px form column, DEX stripe footer. */
@@ -170,7 +170,7 @@ footer{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-l
    um POST em JSON (ex.: gatilho HTTP do Power Automate).
    Campos enviados: nome, area, cargo, decisao, nota, comentario, enviadoEm
    ============================================================ */
-const ENDPOINT_URL = "";
+const ENDPOINT_URL = "https://api.web3forms.com/submit";
 
 const $=id=>document.getElementById(id);
 const form=$("form"), btn=$("btn"), msg=$("msg");
